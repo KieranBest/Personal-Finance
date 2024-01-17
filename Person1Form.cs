@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Personal_Finance
 {
-    public partial class Form1 : Form
+    public partial class Person1Form : Form
     {
-        public Form1()
+        public Person1Form()
         {
             InitializeComponent();
+            this.Size = new System.Drawing.Size(1000, 800);
+        }
+
+        public void closePreviousForm(Form formName = new Form())
+        {
+            formName.close();
         }
     }
 }

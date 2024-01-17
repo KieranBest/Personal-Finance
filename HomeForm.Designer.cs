@@ -1,6 +1,6 @@
 ﻿namespace Personal_Finance
 {
-    partial class Form1
+    partial class HomeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -66,6 +66,7 @@
             this.Person1Button.TabIndex = 2;
             this.Person1Button.Text = "Kieran";
             this.Person1Button.UseVisualStyleBackColor = true;
+            this.Person1Button.Click += new System.EventHandler(this.Person1Button_Click);
             // 
             // SharedButton
             // 
