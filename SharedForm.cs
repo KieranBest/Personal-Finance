@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace Personal_Finance
 {
-    public partial class Person1Form : Form
+    public partial class SharedForm : Form
     {
-        public Person1Form()
+        public SharedForm()
         {
             InitializeComponent();
             this.Size = new System.Drawing.Size(1000, 800);
         }
     }
 }
-                                                                              
