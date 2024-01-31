@@ -82,7 +82,7 @@ namespace Personal_Finance
                 HomeForm homeForm = new HomeForm();
                 homeForm.showButtons(numberOfPeopleSelected, shared);
                 this.Hide();
-                homeForm.Show();
+                homeForm.Show(); // By hiding the form while in settings and then showing it again, it allows the update loop to complete and add the missing menu items
             }
         }
     }
