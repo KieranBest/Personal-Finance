@@ -31,15 +31,18 @@ namespace Personal_Finance
                 case 1:
                     person1Button.Visible = true;
                     break;
+                
                 case 2:
                     person1Button.Visible = true;
                     person2Button.Visible = true;
                     break;
+                
                 case 3:
                     person1Button.Visible = true;
                     person2Button.Visible = true;
                     person3Button.Visible = true;
                     break;
+                
                 case 4:
                     person1Button.Visible = true;
                     person2Button.Visible = true;
@@ -47,6 +50,7 @@ namespace Personal_Finance
                     person4Button.Visible = true;
                     break;
             }
+            
             if (sharedYN == true)
             {
                 sharedButton.Visible = true;
@@ -87,6 +91,8 @@ namespace Personal_Finance
             form.Size = new System.Drawing.Size(1000, 800);
             MessageBox.Show(numberOfPeople.ToString() + sharedYN);
             form.Show();
+            this.Hide();
+            
         }
 
         private void exitButton_Click(object sender, EventArgs e)

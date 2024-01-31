@@ -113,11 +113,11 @@
             // 
             // homeButton
             // 
-            this.homeButton.Location = new System.Drawing.Point(381, 469);
+            this.homeButton.Location = new System.Drawing.Point(357, 472);
             this.homeButton.Name = "homeButton";
             this.homeButton.Size = new System.Drawing.Size(75, 23);
             this.homeButton.TabIndex = 7;
-            this.homeButton.Text = "button1";
+            this.homeButton.Text = "Confirm";
             this.homeButton.UseVisualStyleBackColor = true;
             this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 

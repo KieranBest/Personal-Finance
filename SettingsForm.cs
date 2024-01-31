@@ -82,6 +82,7 @@ namespace Personal_Finance
                 HomeForm homeForm = new HomeForm();
                 homeForm.showButtons(numberOfPeopleSelected, shared);
                 this.Hide();
+                homeForm.Show();
             }
         }
     }
